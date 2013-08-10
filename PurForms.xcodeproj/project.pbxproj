@@ -17,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C42D57817B62AC6006861F5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8C42D57917B62AC6006861F5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		8C7D980417B6298400E561EF /* PurForms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurForms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7D980717B6298400E561EF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8C7D980A17B6298400E561EF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -48,6 +50,8 @@
 		8C7D97FB17B6298400E561EF = {
 			isa = PBXGroup;
 			children = (
+				8C42D57817B62AC6006861F5 /* LICENSE */,
+				8C42D57917B62AC6006861F5 /* README.md */,
 				8C7D980D17B6298400E561EF /* PurForms */,
 				8C7D980617B6298400E561EF /* Frameworks */,
 				8C7D980517B6298400E561EF /* Products */,
@@ -316,6 +320,7 @@
 				8C7D982617B6298400E561EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
