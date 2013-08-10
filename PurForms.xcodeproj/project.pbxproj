@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C42D57B17B62D3C006861F5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C42D57A17B62D3C006861F5 /* libxml2.dylib */; };
+		8C42D58217B62D7D006861F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C42D58117B62D7D006861F5 /* UIKit.framework */; };
+		8C42D58417B62D7D006861F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C42D58317B62D7D006861F5 /* Foundation.framework */; };
+		8C42D58617B62D7D006861F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C42D58517B62D7D006861F5 /* CoreGraphics.framework */; };
+		8C42D58C17B62D7D006861F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C42D58A17B62D7D006861F5 /* InfoPlist.strings */; };
+		8C42D58E17B62D7D006861F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C42D58D17B62D7D006861F5 /* main.m */; };
+		8C42D59217B62D7D006861F5 /* PF_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C42D59117B62D7D006861F5 /* PF_AppDelegate.m */; };
+		8C42D59417B62D7D006861F5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C42D59317B62D7D006861F5 /* Default.png */; };
+		8C42D59617B62D7D006861F5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C42D59517B62D7D006861F5 /* Default@2x.png */; };
+		8C42D59817B62D7D006861F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C42D59717B62D7D006861F5 /* Default-568h@2x.png */; };
+		8C42D59B17B62D7D006861F5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C42D59917B62D7D006861F5 /* MainStoryboard_iPhone.storyboard */; };
+		8C42D59E17B62D7D006861F5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C42D59C17B62D7D006861F5 /* MainStoryboard_iPad.storyboard */; };
+		8C42D5A117B62D7D006861F5 /* PF_MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C42D5A017B62D7D006861F5 /* PF_MasterViewController.m */; };
+		8C42D5A417B62D7D006861F5 /* PF_DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C42D5A317B62D7D006861F5 /* PF_DetailViewController.m */; };
+		8C42D5A917B62DAB006861F5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C42D5A817B62DAB006861F5 /* libxml2.dylib */; };
 		8C7D980817B6298400E561EF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7D980717B6298400E561EF /* Cocoa.framework */; };
 		8C7D981217B6298400E561EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D981017B6298400E561EF /* InfoPlist.strings */; };
 		8C7D981417B6298400E561EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7D981317B6298400E561EF /* main.m */; };
@@ -19,6 +34,27 @@
 /* Begin PBXFileReference section */
 		8C42D57817B62AC6006861F5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8C42D57917B62AC6006861F5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		8C42D57A17B62D3C006861F5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		8C42D58017B62D7D006861F5 /* PurForms Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PurForms Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C42D58117B62D7D006861F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8C42D58317B62D7D006861F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8C42D58517B62D7D006861F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		8C42D58917B62D7D006861F5 /* PurForms Mobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PurForms Mobile-Info.plist"; sourceTree = "<group>"; };
+		8C42D58B17B62D7D006861F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C42D58D17B62D7D006861F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C42D58F17B62D7D006861F5 /* PurForms Mobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PurForms Mobile-Prefix.pch"; sourceTree = "<group>"; };
+		8C42D59017B62D7D006861F5 /* PF_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_AppDelegate.h; sourceTree = "<group>"; };
+		8C42D59117B62D7D006861F5 /* PF_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PF_AppDelegate.m; sourceTree = "<group>"; };
+		8C42D59317B62D7D006861F5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8C42D59517B62D7D006861F5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8C42D59717B62D7D006861F5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8C42D59A17B62D7D006861F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8C42D59D17B62D7D006861F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8C42D59F17B62D7D006861F5 /* PF_MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_MasterViewController.h; sourceTree = "<group>"; };
+		8C42D5A017B62D7D006861F5 /* PF_MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PF_MasterViewController.m; sourceTree = "<group>"; };
+		8C42D5A217B62D7D006861F5 /* PF_DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_DetailViewController.h; sourceTree = "<group>"; };
+		8C42D5A317B62D7D006861F5 /* PF_DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PF_DetailViewController.m; sourceTree = "<group>"; };
+		8C42D5A817B62DAB006861F5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
 		8C7D980417B6298400E561EF /* PurForms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurForms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7D980717B6298400E561EF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8C7D980A17B6298400E561EF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -36,10 +72,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C42D57D17B62D7D006861F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C42D5A917B62DAB006861F5 /* libxml2.dylib in Frameworks */,
+				8C42D58217B62D7D006861F5 /* UIKit.framework in Frameworks */,
+				8C42D58417B62D7D006861F5 /* Foundation.framework in Frameworks */,
+				8C42D58617B62D7D006861F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C7D980117B6298400E561EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C42D57B17B62D3C006861F5 /* libxml2.dylib in Frameworks */,
 				8C7D980817B6298400E561EF /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,12 +95,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C42D58717B62D7D006861F5 /* PurForms Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				8C42D59017B62D7D006861F5 /* PF_AppDelegate.h */,
+				8C42D59117B62D7D006861F5 /* PF_AppDelegate.m */,
+				8C42D59917B62D7D006861F5 /* MainStoryboard_iPhone.storyboard */,
+				8C42D59C17B62D7D006861F5 /* MainStoryboard_iPad.storyboard */,
+				8C42D59F17B62D7D006861F5 /* PF_MasterViewController.h */,
+				8C42D5A017B62D7D006861F5 /* PF_MasterViewController.m */,
+				8C42D5A217B62D7D006861F5 /* PF_DetailViewController.h */,
+				8C42D5A317B62D7D006861F5 /* PF_DetailViewController.m */,
+				8C42D58817B62D7D006861F5 /* Supporting Files */,
+			);
+			path = "PurForms Mobile";
+			sourceTree = "<group>";
+		};
+		8C42D58817B62D7D006861F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C42D58917B62D7D006861F5 /* PurForms Mobile-Info.plist */,
+				8C42D58A17B62D7D006861F5 /* InfoPlist.strings */,
+				8C42D58D17B62D7D006861F5 /* main.m */,
+				8C42D58F17B62D7D006861F5 /* PurForms Mobile-Prefix.pch */,
+				8C42D59317B62D7D006861F5 /* Default.png */,
+				8C42D59517B62D7D006861F5 /* Default@2x.png */,
+				8C42D59717B62D7D006861F5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		8C7D97FB17B6298400E561EF = {
 			isa = PBXGroup;
 			children = (
+				8C42D5A817B62DAB006861F5 /* libxml2.dylib */,
+				8C42D57A17B62D3C006861F5 /* libxml2.dylib */,
 				8C42D57817B62AC6006861F5 /* LICENSE */,
 				8C42D57917B62AC6006861F5 /* README.md */,
 				8C7D980D17B6298400E561EF /* PurForms */,
+				8C42D58717B62D7D006861F5 /* PurForms Mobile */,
 				8C7D980617B6298400E561EF /* Frameworks */,
 				8C7D980517B6298400E561EF /* Products */,
 			);
@@ -62,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				8C7D980417B6298400E561EF /* PurForms.app */,
+				8C42D58017B62D7D006861F5 /* PurForms Mobile.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				8C7D980717B6298400E561EF /* Cocoa.framework */,
+				8C42D58117B62D7D006861F5 /* UIKit.framework */,
+				8C42D58317B62D7D006861F5 /* Foundation.framework */,
+				8C42D58517B62D7D006861F5 /* CoreGraphics.framework */,
 				8C7D980917B6298400E561EF /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -112,6 +197,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C42D57F17B62D7D006861F5 /* PurForms Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C42D5A517B62D7D006861F5 /* Build configuration list for PBXNativeTarget "PurForms Mobile" */;
+			buildPhases = (
+				8C42D57C17B62D7D006861F5 /* Sources */,
+				8C42D57D17B62D7D006861F5 /* Frameworks */,
+				8C42D57E17B62D7D006861F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PurForms Mobile";
+			productName = "PurForms Mobile";
+			productReference = 8C42D58017B62D7D006861F5 /* PurForms Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8C7D980317B6298400E561EF /* PurForms */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C7D982417B6298400E561EF /* Build configuration list for PBXNativeTarget "PurForms" */;
@@ -152,11 +254,25 @@
 			projectRoot = "";
 			targets = (
 				8C7D980317B6298400E561EF /* PurForms */,
+				8C42D57F17B62D7D006861F5 /* PurForms Mobile */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8C42D57E17B62D7D006861F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C42D58C17B62D7D006861F5 /* InfoPlist.strings in Resources */,
+				8C42D59417B62D7D006861F5 /* Default.png in Resources */,
+				8C42D59617B62D7D006861F5 /* Default@2x.png in Resources */,
+				8C42D59817B62D7D006861F5 /* Default-568h@2x.png in Resources */,
+				8C42D59B17B62D7D006861F5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8C42D59E17B62D7D006861F5 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C7D980217B6298400E561EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,6 +287,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C42D57C17B62D7D006861F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C42D58E17B62D7D006861F5 /* main.m in Sources */,
+				8C42D59217B62D7D006861F5 /* PF_AppDelegate.m in Sources */,
+				8C42D5A117B62D7D006861F5 /* PF_MasterViewController.m in Sources */,
+				8C42D5A417B62D7D006861F5 /* PF_DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C7D980017B6298400E561EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,6 +310,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		8C42D58A17B62D7D006861F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C42D58B17B62D7D006861F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C42D59917B62D7D006861F5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C42D59A17B62D7D006861F5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8C42D59C17B62D7D006861F5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C42D59D17B62D7D006861F5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
 		8C7D981017B6298400E561EF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,6 +369,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8C42D5A617B62D7D006861F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PurForms Mobile/PurForms Mobile-Prefix.pch";
+				INFOPLIST_FILE = "PurForms Mobile/PurForms Mobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C42D5A717B62D7D006861F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PurForms Mobile/PurForms Mobile-Prefix.pch";
+				INFOPLIST_FILE = "PurForms Mobile/PurForms Mobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		8C7D982217B6298400E561EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -284,6 +475,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PurForms/PurForms-Prefix.pch";
 				INFOPLIST_FILE = "PurForms/PurForms-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -296,6 +488,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PurForms/PurForms-Prefix.pch";
 				INFOPLIST_FILE = "PurForms/PurForms-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -304,6 +497,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C42D5A517B62D7D006861F5 /* Build configuration list for PBXNativeTarget "PurForms Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C42D5A617B62D7D006861F5 /* Debug */,
+				8C42D5A717B62D7D006861F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8C7D97FF17B6298400E561EF /* Build configuration list for PBXProject "PurForms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
